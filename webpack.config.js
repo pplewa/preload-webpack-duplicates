@@ -8,7 +8,7 @@ module.exports =  {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-		publicPath: '/dist/'
+        publicPath: '/dist/'
     },
     plugins: [
         new HtmlWebpackPlugin({ filename: './file-1.html' }),
